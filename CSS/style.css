@@ -8,16 +8,24 @@
 .p{
 	font-family: verdana;
 	font-size: 18px;
-	color: violet;
+	color: red;
 }
 body{
 	background-image: url("bodybg.png");
 	background-repeat: repeat-x;
 }
-p.dotted {border-style: dotted;}
+p.dotted {
+	border-style: dotted;
+	border-width: 2px;
+	border-color: #f00;
+}
 p.dashed {border-style: dashed;}
 p.solid {border-style: solid;}
-p.double {border-style: double;}
+p.double {
+	border-style: double;
+	border-width: 6px;
+	border-radius: 5px;
+	}
 p.groove {border-style: groove;}
 p.ridge {border-style: ridge;}
 p.inset {border-style: inset;}
