@@ -7,6 +7,10 @@
 }
 .p{
 	font-family: verdana;
-	font-size: 25px;
+	font-size: 18px;
 	color: violet;
+}
+body{
+	background-image: url("bodybg.png");
+	background-repeat: repeat-x;
 }
