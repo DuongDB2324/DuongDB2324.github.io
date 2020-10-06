@@ -1,0 +1,77 @@
+.container{
+	width:1170px;
+	margin:0 auto;
+}
+.clearfix{
+	overflow:hidden;
+}
+.Logo{
+	width:30%;
+	padding:100px 0;
+	background:#f0f;
+	float:left;
+}
+.header-menu{
+	width:70%;
+	padding:100px 0;
+	background:#00f;
+	float:left;
+}
+.column1-header{
+	width:20%;
+	padding:25px 0;
+	background:#ff9;
+	float:left;
+}
+.column2-header{
+	width:60%;
+	padding:25px 0;
+	background:#ff8800;
+	float:left;
+}
+.column3-header{
+	width:20%;
+	padding:25px 0;
+	background:#06f;
+	float:left;
+}
+.content-left{
+	width:30%;
+	float:left;
+}
+.content-right{
+	width:70%;
+	float:left;
+}
+.room1{
+	padding:150px 0;
+	background:#0f0;
+}
+.room2{
+	padding:100px 0;
+	background:#88f;
+}
+.footer-a{
+	width:25%;
+	padding:50px 0;
+	background:#f73;
+	float:left
+}
+.footer-b{
+	width:25%;
+	padding:50px 0;
+	background:#f99;
+	float:left
+}
+.footer-c{
+	width:25%;
+	padding:50px 0;
+	background:#c6f;
+	float:left
+}
+.footer-d{
+	width:25%;
+	padding:50px 0;
+	background:#669;
+	float:left
+}
