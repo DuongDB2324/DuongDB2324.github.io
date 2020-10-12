@@ -170,12 +170,18 @@
 	background:#0f0;
 	float:left
 }
+<<<<<<< HEAD
 /* .love{ */
 	/* width:30%; */
 	/* padding:150px 0; */
 	/* background:#000; */
 	/* float:top right; */
 /* } */
+=======
+.img {
+  position: right top;
+}
+>>>>>>> 71ed99f2dcc77305261f84c29ecdc109a3705d3b
 .rows-top-main2{
 	width:100%;
 	float:left;
