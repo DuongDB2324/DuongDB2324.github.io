@@ -23,11 +23,11 @@ header{
 	float:left;
 }
 .logo{
-	padding: 0 458px 0 62px;
+	padding: 0 401px 0 62px;
 }
 .navbar{
 	list-style:none;
-	padding:3px 0 0 25px;
+	padding:11px 0 2px 82px;
 }
 .nav-item{
 	display:inline-block;
@@ -39,23 +39,38 @@ header{
 	text-transform:uppercase;
 	font-size:1rem;
 	line-height:1.125rem;
-	
-	border-radius:5px;
+	border-radius: 5px;
 }
 .nav-link:first-child{
-	padding-top: 8px;
+	padding-top: 3px;
 	padding-left:16px;
 	padding-right:17px;
 	padding-bottom:6px;
 }
 .nav-link:nth-child(2){
-	padding-top: 8px;
+	padding-top: 3px;
 	padding-left:16px;
 	padding-right:17px;
-	padding-bottom:6px;
+	padding-bottom:4px;
 }
-
 .nav-link:hover{
 	background:#663366;
+}
+.hero-header{
+	padding:140px 133px 0 133px;
+	font-size:2.635rem;
+	color:#fff;
+	text-align:center;
+	text-indent:68px;
+}
+.bottom-header{
+	padding:52px 423px 145px 424px;
+	background:#f63;
+	text-decoration:none;
+	color: #fff;
+	text-transform:uppercase;
+	font-size:1.125rem;
+	text-align:center;
+	border-radius: 5px;
 }
 /*End Header*/
