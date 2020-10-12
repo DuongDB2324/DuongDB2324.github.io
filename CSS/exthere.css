@@ -170,6 +170,9 @@
 	background:#0f0;
 	float:left
 }
+.img {
+  position: right top;
+}
 .rows-top-main2{
 	width:100%;
 	float:left;
