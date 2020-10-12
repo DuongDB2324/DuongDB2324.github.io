@@ -75,20 +75,27 @@ header{
 	background:#663366;
 }
 .hero-header{
-	padding:140px 133px 0 133px;
+	padding:140px 133px 0 134px;
 	font-size:2.635rem;
 	color:#fff;
 	text-align:center;
 	text-indent:68px;
 }
 .bottom-header{
-	padding:52px 423px 145px 424px;
+	/* padding-top:52px; */
+	/* padding-right:423px; */
+	/* padding-bottom:145px; */
+	/* padding-left:424px; */
+	margin:52px 423px 145px 424px;
 	background:#f63;
+	border-radius: 5px;
+}
+.item{
+	padding:25px 89px 25px 82px;
 	text-decoration:none;
 	color: #fff;
 	text-transform:uppercase;
 	font-size:1.125rem;
 	text-align:center;
-	border-radius: 5px;
 }
 /*End Header*/
