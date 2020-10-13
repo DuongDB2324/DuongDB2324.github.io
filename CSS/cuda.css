@@ -15,7 +15,7 @@ html{
 	font-size:16px;
 }
 /*Start Header*/
-header{
+.header{
 	background:#996699;
 	padding-top:57px;
 }
@@ -75,11 +75,11 @@ header{
 	background:#663366;
 }
 .hero-header{
-	padding:140px 133px 0 134px;
+	padding:140px 0 0 0;
 	font-size:2.635rem;
 	color:#fff;
 	text-align:center;
-	text-indent:68px;
+	/* text-indent:68px; */
 }
 .bottom-header{
 	/* padding-top:52px; */
@@ -91,7 +91,7 @@ header{
 	border-radius: 5px;
 }
 .item{
-	padding:25px 89px 25px 82px;
+	padding:25px 86px 25px 82px;
 	text-decoration:none;
 	color: #fff;
 	text-transform:uppercase;
@@ -99,3 +99,58 @@ header{
 	text-align:center;
 }
 /*End Header*/
+/* start main */
+.top-main{
+	background:#0c9;
+	padding-top:113px;
+}
+.item-main{
+	/* margin-top:113px; */
+	margin:0 262px 79px 271px;
+	text-align:center;
+.section h1{
+	font-size:2.5rem;
+	text-transform:uppercase;
+	color:#fff;
+}
+.section p{
+	font-size:1.125rem;
+	/* text-transform:uppercase; */
+	color:#fff;
+}
+.icon-top-main{
+	width:100%;
+	
+	float:left;
+}
+.banding{
+	width:25%;
+	margin-left:52px;
+	margin-right:53px;
+	color:#fff;
+}
+.design{
+	width:25%;
+	margin-left:46px;
+	margin-right:62px;
+	color:#fff;
+}
+.development{
+	width:25%;
+	margin-left:34px;
+	margin-right:52px;
+	color:#fff;
+}
+.rocket{
+	width:25%;
+	margin-left:31px;
+	margin-right:51px;
+	color:#fff;
+}
+.item2{
+	font-size:1.5rem;
+	text-transform:uppercase;
+	text-align:center;
+}
+
+/* end main */
