@@ -408,8 +408,57 @@ html{
 	font-size:1.125rem;
 	color:#fff;
 	text-transform:uppercase;
+	text-decoration:none;
 }
 .item7:hover{
 	background:#b017c2;
+}
+.top-main4{
+	padding-top:114px;
+	background:#d74680;
+}
+.content7{
+	font-size:2.5rem;
+	color:#fff;
+	text-transform:uppercase;
+	text-align:center;
+}
+.content7{
+	font-size:2.5rem;
+	color:#fff;
+	text-transform:uppercase;
+	text-align:center;
+}
+.content8{
+	font-size:1.125rem;
+	color:#fff;
+	text-align:center;
+}
+.bottom-main4{
+	padding-top:68px;
+	background:#d74680;
+}
+.rows3{
+	margin:67px;
+}
+.rows4{
+	margin-top:144px;
+}
+.rows-b{
+	padding:0 20px 0 20px;
+	float:left;
+}
+.rows-c{
+	margin:25px 20px 0 165px;
+}
+.hero-main4{
+	padding:48px;
+	background:#787878;
+	border-radius:48px;
+}
+.content9{
+	padding:0 20px 048px;
+	color:#fff;
+	text-align:left;
 }
 /* end main */
