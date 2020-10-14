@@ -563,6 +563,7 @@ input[type=text], select {
 input[type=submit] {
 	background-color:#30bae7;
 	color:#fff;
+	text-transform:uppercase;
 	padding:25px 85px;
 	margin:60px 0 0 284px;
 	border: none;
