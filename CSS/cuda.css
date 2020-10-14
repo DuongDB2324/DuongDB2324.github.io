@@ -224,7 +224,7 @@ html{
 	float:left;
 }
 .icon-contact5{
-	margin-right:12px;
+	margin:0 12px 0 19px;
 	float:left;
 }
 .icon-contact6{
@@ -252,7 +252,7 @@ html{
 	float:left;
 }
 .icon-contact12{
-	margin-right:12px;
+	margin:0 12px 0 20px;
 	float:left;
 }
 .icon-contact13{
@@ -362,5 +362,54 @@ html{
 }
 .after:hover{
 	background:#fff;
+}
+.rows1{
+	padding:62px 20px 0 20px;
+	float:left;
+}
+.rows2{
+	padding-top:62px;
+	float:left;
+}
+.colum9{
+	font-size:1.125rem;
+	color:#3c4761;
+	text-transform:uppercase;
+	text-align:center;
+}
+.colum10{
+	font-size:1.125rem;
+	color:#3c4761;
+	text-transform:uppercase;
+	text-align:center;
+}
+.colum11{
+	font-size:1.125rem;
+	color:#3c4761;
+	text-transform:uppercase;
+	text-align:center;
+}
+.colum12{
+	font-size:1.125rem;
+	color:#3c4761;
+	text-transform:uppercase;
+	text-align:center;
+}
+.content6{
+	margin:20px 0 61px 0;
+}
+.bottom-main3{
+	margin:80px 423px 109px 423px;
+}
+.item7{
+	padding:25px 55px;
+	background:#17c2a4;
+	border-radius:5px;
+	font-size:1.125rem;
+	color:#fff;
+	text-transform:uppercase;
+}
+.item7:hover{
+	background:#b017c2;
 }
 /* end main */
