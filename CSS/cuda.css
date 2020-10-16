@@ -97,6 +97,7 @@ html{
 	text-transform:uppercase;
 	font-size:1.125rem;
 	text-align:center;
+	display: inline-block;
 }
 /*End Header*/
 /* start main */
