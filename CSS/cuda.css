@@ -579,7 +579,7 @@ input[type=submit]:hover {
 	padding-top:27px;
 }
 #yourmessage{
-	padding-top:10px;
+	padding:10px 0 0 10px;
 	background:#273a71;
 	color:#fff;
 	height:200px;
