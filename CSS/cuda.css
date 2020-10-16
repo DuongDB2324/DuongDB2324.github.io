@@ -15,7 +15,7 @@ html{
 	font-size:16px;
 }
 /*Start Header*/
-.header{
+header{
 	background:#996699;
 	padding-top:57px;
 }
@@ -414,9 +414,12 @@ html{
 .item7:hover{
 	background:#b017c2;
 }
+.main4{
+	background:#d74680;
+}
 .top-main4{
 	padding-top:114px;
-	background:#d74680;
+	/* background:#d74680; */
 }
 .content7{
 	font-size:2.5rem;
@@ -437,7 +440,7 @@ html{
 }
 .bottom-main4{
 	padding-top:68px;
-	background:#d74680;
+	/* background:#d74680; */
 }
 .rows3{
 	/* margin-top:67px; */
@@ -531,10 +534,14 @@ html{
 }
 /* end main */
 /* start footer */
-.top-footer{
+footer{
 	padding-top:114px;
 	background:#3c5499;
 }
+/* .top-footer{ */
+	/* padding-top:114px; */
+	/* background:#3c5499; */
+/* } */
 .content11{
 	font-size:1.5rem;
 	color:#fff;
@@ -553,14 +560,33 @@ html{
 }
 .profile{
 	padding:0px 140px 0 140px;
+	/* width:100%; */
+}
+.top-profile{
+	margin-right:4%;
+	width:48%;
+	position:relative;
+	float:left;
+}
+.top-profile1{
+	width:48%;
+	position:relative;
+	float:left;
+}
+#Yname{
+	width:100%;
+}
+#Yemail{
+	width:100%;
 }
 input[type=text], select {
-	padding: 16px 245px 16px 25px;
+	padding-top:16px;
+	padding-bottom:16px;
 	color:#fff;
 	background:#273a71;
 	display: inline-block;
 	border-radius: 5px;
-	/* box-sizing: border-box; */
+	box-sizing: border-box;
 }
 input[type=submit] {
 	background-color:#30bae7;
@@ -580,11 +606,12 @@ input[type=submit]:hover {
 	padding-top:27px;
 }
 #yourmessage{
+	width:99%;
+	margin-top:30px;
 	padding:10px 0 0 10px;
 	background:#273a71;
 	color:#fff;
 	height:200px;
-	width:860px;
 }
 .bottom-footer{
 	padding-top:114px;
