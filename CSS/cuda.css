@@ -555,6 +555,7 @@ html{
 }
 input[type=text], select {
 	padding: 16px 245px 16px 25px;
+	color:#fff;
 	background:#273a71;
 	display: inline-block;
 	border-radius: 5px;
@@ -574,12 +575,13 @@ input[type=submit]:hover {
 	background-color:#fc0;
 }
 .col{
-  border-radius: 5px;
-  padding-top:27px;
+	border-radius: 5px;
+	padding-top:27px;
 }
 #yourmessage{
 	padding-top:10px;
 	background:#273a71;
+	color:#fff;
 	height:200px;
 	width:860px;
 }
