@@ -1,6 +1,6 @@
 /* start header */
 ::placeholder{
-	font-family:Roboto;
+	font-family:'Roboto', sans-serif;
 	font-size:0.6875rem;
 	text-transform:uppercase;
 	color:#414141;
@@ -10,19 +10,19 @@
 }
 .item2{
 	padding-top:52px;
-	text-align:center;
+	/* text-align:center; */
 }
 .item3{
 	margin-top:68px;
 	list-style:none;
-	font-family:Roboto;
+	font-family:'Roboto', sans-serif;
 	font-size:0.6875rem;
 	text-transform:uppercase;
 	letter-spacing:0.1rem;
+	font-weight: 400;
 }
 .item4{
 	color:#45505e;
-	
 }
 .item4:hover{
 	color:#8ed1b7;
@@ -43,6 +43,12 @@
 .item6{
 	color:#202020;
 }
+.nav-link:hover{
+	border-style: solid;
+	border-color: yellowgreen;
+	border-width: 2px;
+	border-radius: 4px;
+}
 .end-header{
 	margin-bottom:11px;
 }
@@ -53,24 +59,43 @@
 	padding-top:176px;
 }
 .item7{
-	
+	/* margin-left:211px; */
+	margin-bottom:191px;
+	color:#000;
 }
 .item8{
-	
+	font-family:'Alex Brush', cursive;
+	font-size:4.5625rem;
+	line-height:0.5;
 }
 .item9{
-	
+	padding-left:17px;
+	font-family: 'Roboto', sans-serif;
+	font-size:1.4375rem;
+	text-transform:uppercase;
+	font-weight: 100;
 }
 .item10{
-	
+	font-family: 'Titillium Web', sans-serif;
+	font-size:4.5rem;
+	text-transform:uppercase;
+	font-weight: 400;
+	line-height:0.5;
 }
 .item11{
-	
+	font-family: 'Roboto', sans-serif;
+	font-size:1.5rem;
+	text-transform:uppercase;
+	font-weight: 100;
 }
 .item12{
-	
+	padding-top:26px;
 }
 .item13{
-	
+	font-family: 'Roboto', sans-serif;
+	color:#000;
+	text-transform:uppercase;
+	font-weight: 300;
+	text-decoration:underline;
 }
 /* end  main */
