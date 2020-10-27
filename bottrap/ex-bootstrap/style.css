@@ -1,0 +1,47 @@
+::placeholder{
+	font-family:Roboto;
+	font-size:0.6875rem;
+	text-transform:uppercase;
+	color:#414141;
+}
+.item1{
+	padding-top:85px;
+}
+.item2{
+	padding-top:52px;
+	text-align:center;
+}
+.item3{
+	margin-top:68px;
+	list-style:none;
+	font-family:Roboto;
+	font-size:0.6875rem;
+	text-transform:uppercase;
+	letter-spacing:0.1rem;
+}
+.item4{
+	color:#45505e;
+	
+}
+.item4:hover{
+	color:#8ed1b7;
+	text-decoration:underline;
+}
+.badge-light{
+	background:#000000;
+	color:#fff;
+	top:0;
+	right:17px;
+	position:absolute;
+	border-radius:50%;
+}
+.item5{
+	margin-top:65px;
+	list-style:none;
+}
+.item6{
+	color:#202020;
+}
+.end-header{
+	margin-bottom:11px;
+}
