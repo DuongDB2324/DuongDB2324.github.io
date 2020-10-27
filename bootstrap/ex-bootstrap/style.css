@@ -53,7 +53,7 @@
 	margin-bottom:11px;
 }
 /* end-header */
-/* start  main */
+/* start  Slider */
 .slider{
 	background:#ade1c5;
 	padding-top:176px;
@@ -66,7 +66,7 @@
 .item8{
 	font-family:'Alex Brush', cursive;
 	font-size:4.5625rem;
-	line-height:0.5;
+	line-height:0.1;
 }
 .item9{
 	padding-left:17px;
@@ -80,7 +80,7 @@
 	font-size:4.5rem;
 	text-transform:uppercase;
 	font-weight: 400;
-	line-height:0.5;
+	/* line-height:0.5; */
 }
 .item11{
 	font-family: 'Roboto', sans-serif;
@@ -98,4 +98,29 @@
 	font-weight: 300;
 	text-decoration:underline;
 }
-/* end  main */
+/* end  Slider */
+/* start  Filter */
+.filter{
+	background:#fdfdfd;
+	padding-bottom:73px;
+}
+.item14{
+	padding-top:58px;
+	list-style:none;
+	font-family:'Roboto', sans-serif;
+	font-size:0.6875rem;
+	text-transform:uppercase;
+	font-weight: 400;
+}
+.item15{
+	color:#45505e;
+}
+.item16{
+	margin-left:50px;
+}
+/* end  Filter */
+/* Strat  Product */
+.product{
+	background:#fdfdfd;
+}
+/* end  Product */
