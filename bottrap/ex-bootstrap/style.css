@@ -1,3 +1,4 @@
+/* start header */
 ::placeholder{
 	font-family:Roboto;
 	font-size:0.6875rem;
@@ -45,3 +46,19 @@
 .end-header{
 	margin-bottom:11px;
 }
+/* end-header */
+/* start  main */
+.slider{
+	background:#ade1c5;
+	padding-top:176px;
+}
+.item7{
+	
+}
+.item8{
+	
+}
+.item9{
+	
+}
+/* end  main */
