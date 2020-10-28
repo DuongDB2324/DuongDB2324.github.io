@@ -146,13 +146,14 @@
 	margin-top:38px;
 	margin-bottom:78px;
 	color:#000;
+	text-transform:uppercase;
 }
 .item21:hover{
 	color:#8ed1b7;
+	text-transform:uppercase;
 }
 .item22{
 	padding-right:10px;
-	text-transform:uppercase;
 }
 .item23{
 	padding-top:60px;
@@ -175,5 +176,117 @@
 .item25{
 	color:#f33;
 }
-
 /* end  Product */
+/* start featured */
+.left-featured{
+	padding-top:180px;
+}
+.item26{
+	padding: 110px 55px 110px 55px;
+	background: #f9c;
+	position: absolute;
+	border-radius: 50%;
+	margin-top: 350px;
+	opacity: 0.8;
+}
+.item27{
+	font-family: 'Roboto', sans-serif;
+	text-decoration:line-through;
+	font-weight:300;
+	line-height:1.5rem;
+	text-align:end;
+}
+.item28{
+	font-family: 'Roboto', sans-serif;
+	font-size:2.8125rem;
+	color:#fff;
+	font-weight:300;
+	line-height:1.5rem;
+}
+.item29{
+	height: 640px;
+	width: 450px;
+	padding-left: 98px;
+	border-radius:50px;
+}
+.item30{
+	margin-top:80px;
+	position:absolute;
+}
+.item31{
+	margin-left:82px;
+	position:absolute;
+}
+.item32{
+	margin-top: 115px;
+	margin-left: 225px;
+	font-family: 'Roboto', sans-serif;
+	font-size:10.5rem;
+	color:#88c9b0;
+	font-weight:300;
+	line-height:1.5rem;
+	position:absolute;
+}
+.item33{
+	margin-top:159px;
+	margin-left:405px;
+	position:absolute;
+}
+.item34{
+	margin-top:325px;
+	margin-left:165px;
+	font-family: 'Roboto', sans-serif;
+	font-size:0.75rem;
+	color:#fff;
+	font-weight:300;
+	line-height:1.5rem;
+	position:absolute;
+	text-transform:uppercase;
+}
+.item35{
+	font-family: 'Titillium Web', sans-serif;
+	font-size:1.4375rem;
+	text-transform: capitalize;
+	font-weight: 300;
+	line-height: 1.5;
+	transform: rotate(-90deg);
+	margin-left: -522px;
+	margin-right: 10px;
+	letter-spacing: 33px;
+}
+.item36{
+	margin-top:300px;
+	margin-left:165px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size:1.4375rem;
+	text-transform: capitalize;
+	font-weight: 300;
+	line-height: 1.5;
+	position:absolute;
+}
+.item37{
+	margin-top:355px;
+	margin-left:165px;
+	font-family: 'Roboto', sans-serif;
+	font-size:0.875rem;
+	color:#fff;
+	font-weight:300;
+	line-height:1.5rem;
+	position:absolute;
+}
+.item38{
+	margin-top:500px;
+	margin-left:165px;
+	font-family: 'Roboto', sans-serif;
+	font-size:0.75rem;
+	color:#fff;
+	font-weight:300;
+	line-height:1.5rem;
+	position:absolute;
+	text-transform:uppercase;
+	text-decoration: underline;
+}
+.item{
+	
+}
+/* end featured */
