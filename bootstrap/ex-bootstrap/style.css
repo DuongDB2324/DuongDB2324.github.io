@@ -28,14 +28,14 @@
 	color:#8ed1b7;
 	text-decoration:underline;
 }
-.badge-light{
-	background:#000000;
-	color:#fff;
-	top:0;
-	right:17px;
-	position:absolute;
-	border-radius:50%;
-}
+/* .badge-light{ */
+	/* background:#000000; */
+	/* color:#fff; */
+	/* top:0; */
+	/* right:17px; */
+	/* position:absolute; */
+	/* border-radius:50%; */
+/* } */
 .item5{
 	margin-top:65px;
 	list-style:none;
@@ -76,14 +76,14 @@
 	font-weight: 100;
 }
 .item10{
-	font-family:'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 	font-size:4.5rem;
 	text-transform:uppercase;
 	font-weight: 400;
 	/* line-height:0.5; */
 }
 .item11{
-	font-family:'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size:1.5rem;
 	text-transform:uppercase;
 	font-weight: 100;
@@ -92,7 +92,7 @@
 	padding-top:26px;
 }
 .item13{
-	font-family:'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color:#000;
 	text-transform:uppercase;
 	font-weight: 300;
@@ -129,6 +129,7 @@
 .item18{
 	height:256px;
 	min-height:156px;
+	width: 265px;
 }
 .item19{
 	text-align:center;
@@ -137,25 +138,6 @@
 	padding-right:15px;
 	text-decoration:line-through;
 	color:#000;
-}
-h1{
-	padding-top:60px;
-	padding-left:22px;
-	font-family: 'Titillium Web', sans-serif;
-	font-size:1.4375rem;
-	text-transform:uppercase;
-	font-weight: 300;
-	line-height: 1.5;
-}
-p{
-	padding-left:34px;
-	padding-bottom:40px;
-	font-family: 'Roboto', sans-serif;
-	color:#8ed1b7;
-	font-size:0.875rem;
-	text-transform:uppercase;
-	font-weight: 300;
-	
 }
 .item21{
 	margin-top:38px;
@@ -167,5 +149,23 @@ p{
 }
 .item22{
 	padding-right:10px;
+}
+.item23{
+	padding-top:60px;
+	padding-left:22px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size:1.4375rem;
+	text-transform:uppercase;
+	font-weight: 300;
+	line-height: 1.5;
+}
+.item24{
+	padding-left:34px;
+	padding-bottom:40px;
+	font-family: 'Roboto', sans-serif;
+	color:#8ed1b7;
+	font-size:0.875rem;
+	text-transform:uppercase;
+	font-weight: 300;
 }
 /* end  Product */
