@@ -131,6 +131,9 @@
 	min-height:156px;
 	width: 265px;
 }
+.item18:hover{
+	opacity:0.5;
+}
 .item19{
 	text-align:center;
 }
@@ -149,6 +152,7 @@
 }
 .item22{
 	padding-right:10px;
+	text-transform:uppercase;
 }
 .item23{
 	padding-top:60px;
@@ -168,4 +172,8 @@
 	text-transform:uppercase;
 	font-weight: 300;
 }
+.item25{
+	color:#f33;
+}
+
 /* end  Product */
