@@ -123,4 +123,49 @@
 .product{
 	background:#fdfdfd;
 }
+.item17{
+	background:#fff;
+}
+.item18{
+	height:256px;
+	min-height:156px;
+}
+.item19{
+	text-align:center;
+}
+.item20{
+	padding-right:15px;
+	text-decoration:line-through;
+	color:#000;
+}
+h1{
+	padding-top:60px;
+	padding-left:22px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size:1.4375rem;
+	text-transform:uppercase;
+	font-weight: 300;
+	line-height: 1.5;
+}
+p{
+	padding-left:34px;
+	padding-bottom:40px;
+	font-family: 'Roboto', sans-serif;
+	color:#8ed1b7;
+	font-size:0.875rem;
+	text-transform:uppercase;
+	font-weight: 300;
+	
+}
+.item21{
+	margin-top:38px;
+	margin-bottom:78px;
+	color:#000;
+}
+.item21:hover{
+	color:#8ed1b7;
+}
+.item22{
+	padding-right:10px;
+}
 /* end  Product */
