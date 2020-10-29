@@ -40,6 +40,9 @@
 	color:#202020;
 	border: 2px solid white;
 }
+.item6-1{
+	position:absolute;
+}
 .nav-link:hover{
 	border-style: solid;
 	border-color: yellowgreen;
@@ -47,7 +50,7 @@
 	border-radius: 4px;
 	}
 .pob-up{
-	margin: 8.75rem 53rem auto 54rem;
+	margin: 8rem 35rem auto 33rem;
 	right: -23rem;
 	}
 .end-header{
@@ -57,12 +60,18 @@
 /* start  Slider */
 .slider{
 	background:#ade1c5;
-	padding-top:176px;
+	/* padding-top:176px; */
+}
+.item7-2{
+	box-shadow: 4px 2px 5px 4px rgba(0, 0, 0, 0.2)
 }
 .item7{
 	/* margin-left:211px; */
-	margin-bottom:191px;
+	/* margin-bottom:191px; */
+	padding-top:11rem;
 	color:#000;
+	position:absolute;
+	padding-left: 10%;
 }
 .item8{
 	font-family:'Alex Brush', cursive;
