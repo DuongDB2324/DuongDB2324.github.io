@@ -23,6 +23,7 @@
 }
 .item4{
 	color:#45505e;
+	border: 2px solid white;
 }
 .item4:hover{
 	color:#8ed1b7;
@@ -37,13 +38,18 @@
 }
 .item6{
 	color:#202020;
+	border: 2px solid white;
 }
 .nav-link:hover{
 	border-style: solid;
 	border-color: yellowgreen;
 	border-width: 2px;
 	border-radius: 4px;
-}
+	}
+.pob-up{
+	margin: 8.75rem 53rem auto 54rem;
+	right: -23rem;
+	}
 .end-header{
 	margin-bottom:11px;
 }
@@ -106,9 +112,11 @@
 	font-size:0.6875rem;
 	text-transform:uppercase;
 	font-weight: 400;
+	border: 2px solid white;
 }
 .item15{
 	color:#45505e;
+	border: 2px solid white;
 }
 .item16{
 	margin-left:50px;
@@ -289,8 +297,9 @@
 	background:#1d1e24;
 }
 .item39{
-	text-align:center;
-	position:absolute;
+	text-align: center;
+    position: absolute;
+    right: 99rem;
 }
 .item40{
 	font-size:4rem;
@@ -318,8 +327,12 @@
 .item43{
 	text-align:center;
 	position:absolute;
+    left: 99rem;
+    top: 3282px;
 }
-.item44{}
+.item44{
+	font-size:4rem;
+}
 .item45{}
 .item46{}
 .item{}
