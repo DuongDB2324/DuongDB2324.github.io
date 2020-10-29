@@ -294,6 +294,7 @@
 .section-a{
 	margin-top:131px;
 	padding-top:52px;
+	padding-bottom:48px;
 	background:#1d1e24;
 }
 .item39{
@@ -333,10 +334,11 @@
 .item44{
 	font-size:4rem;
 }
+/* end section-a */
+/* start foot */
 .item45{}
 .item46{}
 .item{}
 .item{}
 .item{}
-
-/* end section-a */
+/* end foot */
