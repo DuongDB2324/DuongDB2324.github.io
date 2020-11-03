@@ -3,10 +3,6 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 		<link rel="stylesheet" href="style.css">
 		<title>Ex Bootstrap</title>
@@ -16,7 +12,7 @@
 		<header>
 			<div class="container" id="homepage">
 				<div class="row">
-					<div class="col-sm-3">
+					<div class="col-xl-3">
 						<div class="input-group item1">
 							<div class="input-group-prepend">
 								<button id="button-addon2" type="submit" class="btn">
@@ -26,10 +22,10 @@
 							<input class="form-control-plaintext" type="search" placeholder="seach" aria-describedby="button-addon2">
 						</div>
 					</div>
-					<div class="col-sm-6">
+					<div class="col-xl-6">
 						<img src="img/logo.jpg" alt="logo-shopx" class="mx-auto d-block item2">
 					</div>
-					<div class="col-sm-3">
+					<div class="col-xl-3">
 						<div class="nav justify-content-end">
 							<ul class="navbar item5">
 								<li class="nav-item">
@@ -97,12 +93,18 @@
 						</div>
 					</div>
 				</div>
+			</div>
+			<div class="container-fluid">
 				<div class="row end-header">
 					<div class="col-sm-12">
-						<div class="nav justify-content-center">
-							<ul class="navbar item3">
+						<nav class="navbar navbar-expand-md navbar-light sticky-top">
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+							<div class="collapse navbar-collapse justify-content-center" id="navbarResponsive">
+							<ul class="navbar-nav item3">
 								<li class="nav-item">
-									<a class="nav-link item4" href="#homepage" title="Homepage">home</a>
+									<a class="nav-link active item4" href="#homepage" title="Homepage">home</a>
 								</li>
 								<li class="nav-item">
 									<a class="nav-link item4" href="#filter" title="shop">shop</a>
@@ -120,7 +122,7 @@
 									<a class="nav-link item4" href="#" title="blogs">blogs</a>
 								</li>
 							</ul>
-						</div>
+						</nav>
 					</div>
 				</div>
 			</div>
@@ -130,7 +132,7 @@
 		<section>
 			<div class="slider">
 				<div class="container">
-					<div class="row">
+						<div class="row">
 						<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 							<ol class="carousel-indicators">
 								<li data-target="#carouselExampleCaptions" data-slide-to="0"></li>

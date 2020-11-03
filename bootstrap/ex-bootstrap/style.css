@@ -1,3 +1,11 @@
+*{
+	margin:0;
+	padding:0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Titillium+Web:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Titillium+Web:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
 /* start header */
 ::placeholder{
 	font-family:'Roboto', sans-serif;
@@ -13,7 +21,7 @@
 	/* text-align:center; */
 }
 .item3{
-	margin-top:68px;
+	/* margin-top:68px; */
 	list-style:none;
 	font-family:'Roboto', sans-serif;
 	font-size:0.6875rem;
@@ -70,9 +78,7 @@
 	background:#ade1c5;
 	/* padding-top:176px; */
 }
-.item7-2{
-	box-shadow: 4px 2px 5px 4px rgba(0, 0, 0, 0.2)
-}
+
 .item7{
 	/* margin-left:211px; */
 	/* margin-bottom:191px; */
