@@ -42,4 +42,11 @@ p ~ span {
 .reset-button {
   color: #88f2d5; }
 
+@use "sass:map";
+.alert {
+  color: #fff; }
+
+.menu-left {
+  font-style: "Roboto", sans-serif; }
+
 /*# sourceMappingURL=style.css.map */

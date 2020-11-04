@@ -58,3 +58,14 @@ p{
 .reset-button{
 	color:#88f2d5;
 }
+@use "sass:map";
+$theme-color:(
+	"success":#fff,
+	"info":#12edb8,
+);
+.alert{
+	color: map-get($theme-color,"success");
+}
+.menu-left{
+	font-style: $fontfamily;
+}
