@@ -78,14 +78,16 @@
 	background:#ade1c5;
 	/* padding-top:176px; */
 }
-
+.item7-2{
+	height:575px;
+}
 .item7{
-	/* margin-left:211px; */
-	/* margin-bottom:191px; */
-	padding-top:11rem;
+	margin-left: 211px;
+	margin-top: -23rem;
 	color:#000;
 	position:absolute;
-	padding-left: 10%;
+	/* padding-left: 10%; */
+	text-align: start;
 }
 .item8{
 	font-family:'Alex Brush', cursive;
