@@ -62,7 +62,6 @@
 .nav-link:hover{
 	border-style: solid;
 	border-color: yellowgreen;
-	border-width: 2px;
 	border-radius: 4px;
 	}
 .pob-up{
@@ -128,7 +127,7 @@
 /* start  Filter */
 .filter{
 	background:#fdfdfd;
-	padding-bottom:73px;
+	padding-bottom:58px;
 }
 .item14{
 	padding-top:58px;
@@ -137,11 +136,7 @@
 	font-size:0.6875rem;
 	text-transform:uppercase;
 	font-weight: 400;
-	border: 2px solid white;
-}
-.item15{
-	color:#45505e;
-	border: 2px solid white;
+	border: 1px solid white;
 }
 .item16{
 	margin-left:50px;
