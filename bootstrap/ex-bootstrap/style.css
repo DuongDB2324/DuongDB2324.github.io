@@ -159,6 +159,10 @@
 }
 .item19{
 	text-align:center;
+	float:left;
+}
+.item19-1{
+	float:left;
 }
 .item20{
 	padding-right:15px;
