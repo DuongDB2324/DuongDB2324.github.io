@@ -49,4 +49,32 @@ p ~ span {
 .menu-left {
   font-style: "Roboto", sans-serif; }
 
+.list ul, .list ol {
+  text-align: left; }
+  .list ul .list ul, .list ol .list ul, .list ul .list ol, .list ol .list ol {
+    padding-bottom: 0;
+    padding-left: 0; }
+
+.sidebar {
+  padding: 5px 5px 4px 6px;
+  margin: 5px 5px 4px 6px; }
+
+.danger {
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px solid blue;
+  color: red; }
+
+.warning {
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px solid blue;
+  color: orange; }
+
+.wrapper {
+  width: 100px; }
+
+.abc {
+  color: #523314; }
+
 /*# sourceMappingURL=style.css.map */
