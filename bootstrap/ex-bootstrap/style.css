@@ -204,8 +204,16 @@
 }
 /* end  Product */
 /* start featured */
+.featured{
+	padding-top:176px;
+}
 .left-featured{
 	padding-top:180px;
+	position:relative;
+}
+.item26-a{
+	position:relative;
+	padding-bottom: 9rem;
 }
 .item26{
 	padding: 110px 55px 110px 55px;
@@ -236,16 +244,18 @@
 	border-radius:50px;
 }
 .item30{
-	margin-top:80px;
+	margin-top: -41rem;
+	margin-left: 35rem;
 	position:absolute;
 }
 .item31{
-	margin-left:82px;
-	position:absolute;
+	/* margin-left:82px; */
+	position:relative;
+	background:#8ed1b7;
 }
 .item32{
-	margin-top: 115px;
-	margin-left: 225px;
+	margin-top: -25px;
+	margin-left: 96px;
 	font-family: 'Roboto', sans-serif;
 	font-size:10.5rem;
 	color:#88c9b0;
@@ -254,13 +264,15 @@
 	position:absolute;
 }
 .item33{
-	margin-top:159px;
-	margin-left:405px;
-	position:absolute;
+	margin-top: 20px;
+	margin-left: 274px;
+	position: absolute;
+	width: 371px;
+	height: 764px;
 }
 .item34{
-	margin-top:325px;
-	margin-left:165px;
+	margin-top:215px;
+	margin-left:68px;
 	font-family: 'Roboto', sans-serif;
 	font-size:0.75rem;
 	color:#fff;
@@ -276,13 +288,13 @@
 	font-weight: 300;
 	line-height: 1.5;
 	transform: rotate(-90deg);
-	margin-left: -522px;
-	margin-right: 10px;
+	margin-left: -533px;
+	margin-right: 198px;
 	letter-spacing: 33px;
 }
 .item36{
-	margin-top:300px;
-	margin-left:165px;
+	margin-top:185px;
+	margin-left:68px;
 	font-family: 'Titillium Web', sans-serif;
 	font-size:1.4375rem;
 	text-transform: capitalize;
@@ -291,8 +303,8 @@
 	position:absolute;
 }
 .item37{
-	margin-top:355px;
-	margin-left:165px;
+	margin-top:255px;
+	margin-left:68px;
 	font-family: 'Roboto', sans-serif;
 	font-size:0.875rem;
 	color:#fff;
@@ -301,8 +313,8 @@
 	position:absolute;
 }
 .item38{
-	margin-top:500px;
-	margin-left:165px;
+	margin-top:405px;
+	margin-left:68px;
 	font-family: 'Roboto', sans-serif;
 	font-size:0.75rem;
 	color:#fff;
@@ -315,7 +327,7 @@
 /* end featured */
 /* start section-a */
 .section-a{
-	margin-top:131px;
+	/* margin-top:131px; */
 	padding-top:52px;
 	padding-bottom:48px;
 	background:#1d1e24;
@@ -346,14 +358,17 @@
 	line-height:1.5rem;
 	text-align:center;
 }
+/* end section-a */
+/* start foot */
+.foot{
+	background:fff;
+}
 .item43{
 	
 }
 .item44{
 	
 }
-/* end section-a */
-/* start foot */
 .item45{}
 .item46{}
 .item{}
