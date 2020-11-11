@@ -210,6 +210,7 @@
 .left-featured{
 	padding-top:180px;
 	position:relative;
+	text-align:end
 }
 .item26-a{
 	position:relative;
@@ -221,6 +222,7 @@
 	position: absolute;
 	border-radius: 50%;
 	margin-top: 350px;
+	margin-left: 7.5rem;
 	opacity: 0.8;
 }
 .item27{
@@ -242,10 +244,12 @@
 	width: 450px;
 	padding-left: 98px;
 	border-radius:50px;
+	margin-left: 7rem;
+	margin-right: 5rem;
 }
 .item30{
 	margin-top: -41rem;
-	margin-left: 35rem;
+	margin-left: -3rem;
 	position:absolute;
 }
 .item31{
@@ -271,7 +275,7 @@
 	height: 764px;
 }
 .item34{
-	margin-top:215px;
+	margin-top:200px;
 	margin-left:68px;
 	font-family: 'Roboto', sans-serif;
 	font-size:0.75rem;
@@ -288,12 +292,12 @@
 	font-weight: 300;
 	line-height: 1.5;
 	transform: rotate(-90deg);
-	margin-left: -533px;
-	margin-right: 198px;
+	margin-left: 30px;
+	margin-right: -597px;
 	letter-spacing: 33px;
 }
 .item36{
-	margin-top:185px;
+	margin-top:220px;
 	margin-left:68px;
 	font-family: 'Titillium Web', sans-serif;
 	font-size:1.4375rem;
@@ -303,7 +307,7 @@
 	position:absolute;
 }
 .item37{
-	margin-top:255px;
+	margin-top:305px;
 	margin-left:68px;
 	font-family: 'Roboto', sans-serif;
 	font-size:0.875rem;
@@ -311,10 +315,11 @@
 	font-weight:300;
 	line-height:1.5rem;
 	position:absolute;
+	text-align:left;
 }
 .item38{
-	margin-top:405px;
-	margin-left:68px;
+	margin-top: 450px;
+	margin-left: -575px;
 	font-family: 'Roboto', sans-serif;
 	font-size:0.75rem;
 	color:#fff;
