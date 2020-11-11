@@ -152,9 +152,9 @@
 	float:left;
 }
 .item18{
-	height:256px;
-	min-height:156px;
-	width: 265px;
+	height: 210px;
+	min-height: 156px;
+	width: 200px;
 }
 .item18:hover{
 	opacity:0.5;
@@ -185,7 +185,7 @@
 	padding-top:60px;
 	padding-left:22px;
 	font-family: 'Titillium Web', sans-serif;
-	font-size:1.4375rem;
+	font-size:1rem;
 	text-transform:uppercase;
 	font-weight: 300;
 	line-height: 1.5;
@@ -360,3 +360,96 @@
 .item{}
 .item{}
 /* end foot */
+/* index2 */
+.text-d{
+	margin-bottom: 120px;
+	position:relative;
+	background:#e7a8c6;
+	/* width:238px; */
+	/* height:238px; */
+	padding:117px;
+	border-radius:50%;
+	margin-top:410px;
+}
+.text-da{
+	text-decoration: line-through;
+    left: 138px;
+    position: absolute;
+    top: 84px;
+}
+.text-db{
+	color:#fff;
+	left: 55px;
+    top: 85px;
+	text-align:center;
+	position:absolute;
+	font-size: 2.85rem;
+}
+.layer-a{
+	position:relative;
+}
+.text-f{
+	left: 87px;
+	position:absolute;
+	background:#8ed1b7;
+	width:960px;
+	height:771px;
+}
+.layer-aa{
+	top:60px;
+	position:absolute;
+}
+.text-ea{
+	left: -112px;
+    font-size: 1.375rem;
+    line-height: 1.5rem;
+    letter-spacing: 32px;
+    top: 424px;
+    transform: rotate(-90deg);
+    position: absolute;
+	font-family: 'Titillium Web', sans-serif;
+}
+.text-fa{
+	letter-spacing:12px;
+	padding-left:50px;
+	padding-top:68px;
+	color:#86c5ac;
+	line-height:1.5rem;
+	font-size:10.5rem;
+}
+.layer-b{
+	top: 121px;
+	left:248px;
+	position:absolute;
+}
+.text-g{
+	top:275px;
+    position: absolute;
+    left: 55px;
+}
+.text-ga{
+	line-height:1.5rem;
+	font-size:0.67rem;
+	font-family: 'Roboto', sans-serif;
+	color:#fff;
+}
+.text-gb{
+	line-height:1.5rem;
+	font-size:1.435rem;
+	color:#000;
+}
+.text-gc{
+	line-height:1.5rem;
+	padding-top:25px;
+	padding-bottom:25px;
+	font-size:0.875rem;
+	font-family: 'Roboto', sans-serif;
+	color:#fff;
+}
+.text-gd{
+	line-height:1.5rem;
+	font-size:0.67rem;
+	text-decoration:underline;
+	font-family: 'Roboto', serif;
+	color:#fff;
+}
