@@ -284,7 +284,8 @@
 .item31{
 	position:relative;
 	background:#8ed1b7;
-	margin-left: 30px;
+	margin:0 auto;
+	margin-right:0;
 }
 .item32{
 	margin-top: 123px;
