@@ -1,0 +1,23 @@
+<script type="text/javascript">
+function showStyle(field)
+{
+	field.style.backgroundColor='limegreen';
+}
+function hideStyle(field)
+{
+	field.style.backgroundColor='orange';
+}
+function setFontStyle(field)
+{
+	field.style.fontSize='30px';
+	field.style.fontFamily='Arial';
+}
+</script>
+<form name="form1" method="post" action="">
+Name:<input type="text" name="txtName" onFocus="showStyle(this);" onBlur="hideStyle(this)" onSelect="setFontStyle(this)"><BR>
+E-mail:<input type="text" name="txtEmail" onFocus="showStyle(this);" onBlur="hideStyle(this)" onSelect="setFontStyle(this)">    <BR>
+Comment: <textarea name="txtComment" rows="4" onFocus="showStyle(this);" onBlur="hideStyle(this)" onSelect="setFontStyle(this)"></textarea><BR>
+<input type="submit" name="Submit" value="Submit">
+<input type="reset" name="Submit2" value="Reset">
+</form>
+

@@ -1,0 +1,29 @@
+<html>
+<head>
+<script type="text/javascript">
+
+function goBack()
+  {
+  window.history.back()
+  }
+
+function goForward()
+  {
+  window.history.forward()
+  }
+
+document.write("Number of URLs in history list: " + history.length);
+</script>
+</head>
+<body>
+
+<input type="button" value="Back" onclick="goBack()" />
+
+<input type="button" value="Forward" onclick="goForward()" />
+
+<a href="DemoArray.html">Array</a>
+
+
+
+</body>
+</html>

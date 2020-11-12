@@ -1,0 +1,13 @@
+<script language="JavaScript" type="text/javascript">
+   str="Welcome to JavaScript !  ";
+
+function chuchuyendong() 
+{
+	//thiet lap noi dung cho thanh trang thai
+	window.status=str;
+	str=str.substr(1) + str.charAt(0);	
+}
+
+   //thiet lap dong chu chuyen dong
+   window.setInterval("chuchuyendong()",1000);
+</script>

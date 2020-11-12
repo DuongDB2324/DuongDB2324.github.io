@@ -1,0 +1,98 @@
+<html>
+<head>
+<script language="JavaScript">
+function quat()
+{
+	hoten = tonyform.ten.value;
+	dotuoi = tonyform.tuoi.value;	
+	bangcap = tonyform.graduation.value;
+
+	if(hoten == "")
+	{
+		alert('Moi bac nhap ten !');
+		tonyform.ten.focus();
+		return;
+	}
+
+	if(dotuoi == "under 18" || dotuoi == "over 60")
+	{
+		alert('Tuoi cua kung phai nam trong khoang 18-60 !');
+		tonyform.tuoi.focus();
+		return;
+	}
+
+	if(dotuoi == "18-30" && bangcap == "postgraduate")
+		alert('Dai hiep da du trinh do lam quan ly !');
+	else if (dotuoi == "30-60" && bangcap == "university")
+		alert('Dai hiep da du trinh do lam quan ly !');
+	else
+		alert('Ban chi du trinh lam cong nhan !');
+}
+</script>
+</head>
+<body>
+
+<form name="tonyform">
+<table>
+<tr>
+<td>Name:</td>
+<td>Age</td>
+<td colspan="2">Sex:</td>
+</tr>
+
+<tr>
+<td><input type="text" name="ten" /></td>
+<td>
+<select name="tuoi">
+<option value="under 18">under 18</option>
+<option value="18-30">18-30</option>
+<option value="30-60">30-60</option>
+<option value="over 60">overder 60</option>
+</select>
+</td>
+<td><input type="radio" name="sex" value="male">Dan ong</input></td>
+<td><input type="radio" name="sex" value="female">Dan ba</input></td>
+</tr>
+
+
+<tr>
+<td>Working experiences:</td>
+<td>Highest graduation: </td>
+</tr>
+
+<tr>
+<td><select name="experience">
+<option value="less than 2">less than 2</option>
+<option value="less than 5">less than 5</option>
+<option value="more than 5">more than 5</option>
+</select>
+</td>
+<td><select name="graduation">
+<option value="high school">high school</option>
+<option value="university">university</option>
+<option value="postgraduate">postgraduate</option>
+</select></td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>
+<input type="button" value="Qualification" onClick="quat();" />
+</td>
+<td><input type="reset" value="Reset"/></td>
+</tr>
+
+</table>
+</form>
+
+</body>
+</html>

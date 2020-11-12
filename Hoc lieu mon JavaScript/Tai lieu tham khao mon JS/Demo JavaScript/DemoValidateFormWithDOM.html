@@ -1,0 +1,83 @@
+<html>
+<head>
+<style>
+body
+{
+	background-color:green;
+}
+</style>
+<script language="JavaScript">
+function check()
+{
+	name=myform.hoten.value;
+	tenlau=myform.lau.value;
+	diachiVal = myform.diachi.value;
+
+	if(name == "")
+	{
+		alert('Cung can nhap ten !');
+		myform.hoten.focus();
+		return;
+	}
+
+	if(diachiVal == "")
+	{
+		document.all('loidiachi').innerHTML="Ban can nhap dia chi !";
+		document.all('loidiachi').style.backgroundColor="red";
+		myform.diachi.style.backgroundColor='red';
+		myform.diachi.focus();
+		return;
+	}
+
+	if(tenlau == "")
+	{
+		alert('Cung can chon loai lau !');
+		myform.lau.focus();
+		return;
+	}
+
+	if(myform.khoaimon.checked==false && myform.ngo.checked == false)
+	{
+		alert('Moi ban chon mon trang mieng !');	
+	             myform.khoaimon.focus();
+		return;
+	}
+
+	if(myform.sex[0].checked==false && myform.sex[1].checked == false && myform.sex[2].checked == false)
+	{
+		alert('Moi ban chon gioi tinh !');	
+	             myform.sex[0].focus();
+		return;
+	}
+}
+
+</script>
+</head>
+<body>
+
+<form name="myform">
+Name: <input type="text" name="hoten" /> <BR>
+Address: <input type="text" name="diachi" /> <BR>
+<span id="loidiachi" ></span> <BR>
+Cac mon lau: 
+<select name="lau">
+<option value="">
+<option value="Lau thap cam">Lau chim thap cam
+<option value="Lau chao">Lau chao chim bo cau
+<option value="Lau ga nam">Lau ga nam
+</select> <BR>
+So  thich cua Viet Anh:
+<input type="checkbox"  name="khoaimon">Khoai le pho</input>
+<input type="checkbox" name="ngo">Ngo chien</input>
+<BR>
+
+Gioi tinh cua Viet Anh:
+<input type="radio"  name="sex">Nam</input>
+<input type="radio" name="sex">Nu</input>
+<input type="radio" name="sex">Phong</input>
+<BR>
+<input type="button" value="Kiem tra" onclick="check();" />
+</form>
+
+</body>
+</html>

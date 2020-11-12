@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+<title>Calculator</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="w-50 m-auto">
+            <h1>Học toán cùng thầy Toàn =]]</h1>
+        input number 1 <input type="text" id="n1">
+        <br><br>
+        input number 2 <input type="text" id="n2">
+        <br><br>
+        Operator
+        <select id="operator">
+            <option>+</option>
+            <option>-</option>
+            <option>*</option>
+            <option>/</option>
+        </select>
+        <br><br>
+        Result <input type="text" id="result">
+        <button class="btn btn-primary" onclick="calculator()">Submit</button>
+        <script type="text/javascript">
+            function calculator(){
+                var n1 = document.getElementById('n1').value;
+                var n2 = document.getElementById('n2').value;
+                var operator = document.getElementById('operator').value;
+                var result = 0;
+                if(operator=="+"){
+                    result = parseInt(n1) + parseInt(n2);
+                }else if(operator=="-"){
+                    result = parseInt(n1) - parseInt(n2);
+                }else if(operator=="*"){
+                    result = parseInt(n1) * parseInt(n2);
+                }else{
+                    result = parseInt(n1) / parseInt(n2);
+                }
+                document.getElementById('result').value = result;
+            }
+        </script>
+        </div>
+        <div class="w-50 m-auto" style="margin-top: 120px !important;">
+            <h1>Trung bình cộng</h1>
+            input number 1 <input type="text" id="num1">
+            <br><br>
+            input number 2 <input type="text" id="num2">
+            <br><br>
+            input number 3 <input type="text" id="num3">
+            <br><br>
+            Result <input type="text" id="ketqua">
+            <button class="btn btn-secondary" onclick="myFuntion()">Result</button>
+            <script type="text/javascript">
+                function myFuntion(){
+                    var num1 = document.getElementById('num1').value; 
+                    var num2 = document.getElementById('num2').value;
+                    var num3 = document.getElementById('num3').value;
+                    var ketqua = (parseInt(num1) + parseInt(num2) + parseInt(num3))/3;
+                    document.getElementById('ketqua').value = ketqua;
+                }
+            </script>
+        </div>
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

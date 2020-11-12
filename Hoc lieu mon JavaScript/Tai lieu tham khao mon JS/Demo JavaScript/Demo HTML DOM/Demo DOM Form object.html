@@ -1,0 +1,39 @@
+<html>
+<head>
+<script type="text/javascript">
+
+function initialize_form()
+{ 
+	frmLoginInf.action="http://dantri.com.vn";
+	frmLoginInf.post="post";
+	frmLoginInf.target="_blank";
+}
+
+function reset_form() 
+{ 
+	frmLoginInf.reset(); 
+}
+
+function submit_form()
+{ 
+	frmLoginInf.submit(); 
+}
+</script>
+
+</head>
+
+<BODY onload="initialize_form()">
+
+<form name="frmLoginInf">
+<h2 style="color:#000099; ">Login Information</h2> User Name:<input type="text" name="txt1">
+Password: <input name="txt2" type="password" size="15"> Confirm Password: <input name="txt3" type="password" size="15"> Alternate E-mail ID:<input type="text" name="txt4">
+
+<input type="submit" name="Submit" value="Sign Up" onclick="submit_form()" >
+
+<input type="reset" name="Submit2" value="Reset" onclick="reset_form()" >
+
+</form>
+</BODY>
+
+
+</html> 

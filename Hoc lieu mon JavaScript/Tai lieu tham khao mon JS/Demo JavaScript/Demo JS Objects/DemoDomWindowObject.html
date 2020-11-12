@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Demo DOM Object</title>
+
+<script>
+function demoopen() {
+ var w = window.open(300, 300);
+}
+
+function demoalert() {
+ window.alert('Minh họa alert !');
+}
+
+function democlose() {
+ window.close();
+}
+
+function demopopup() {
+ var p=window.createPopup();
+		var pbody=p.document.body;
+		pbody.style.backgroundColor="lime";
+		pbody.style.border="solid black 1px";
+		pbody.innerHTML="This is a pop-up! Click outside to close.";
+		p.show(150,150,200,50,document.body);
+
+}
+
+function demodocument() {
+	document.bgColor = 'orange';
+	document.fgColor = 'limegreen';
+	document.title = 'Minh họa về JS Object';	
+}
+
+</script></head>
+<body>
+<form name="form1">
+<input type="button" name="btnopen" value="Open" onClick="demoopen()" />
+<input type="button" value="Close" onClick="democlose()" />
+<input type="button" value="Create popup" onClick="demopopup()" />
+<input type="button" value="Show alert" onClick="demoalert()" />
+<input type="button" value="Demo document" onClick="demodocument()" />
+<input type="button" value="Show back" onClick="history.back()" />
+<input type="button" value="Show forward" onClick="history.forward()" />
+</form>
+<h2>Ở nhà là yêu nước ! Stay ay home !</h2>
+<a href="http://www.vietnamnet.vn">VietNamNet</a><BR>
+<a href="http://www.dantri.com.vn">Dan Tri</a>
+</body>
+</html>

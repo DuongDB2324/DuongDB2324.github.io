@@ -1,0 +1,25 @@
+<HTML> <HEAD>
+<SCRIPT LANGUAGE="JavaScript">
+function checkNum(num) 
+ {
+  if (num == "") 
+ {
+ alert("Please enter a number");
+ return false;
+ }
+if (isNaN (num)) 
+{
+alert("Please enter a numeric value");
+return false;
+}
+else alert ("Thank you");
+	  }
+</SCRIPT>
+</HEAD>
+<BODY bgColor = white>
+ <FORM>
+	Please enter a number: 
+<INPUT type = text size = 5 onChange="checkNum(this.value)">
+ </FORM>
+</BODY>
+</HTML>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+<title>Title</title>
+</head>
+<body>
+    <div class="container">
+        <div class="w-50 m-auto">
+            <h1>Tính lương cùng thầy Toàn =]]</h1>
+        <form action="">
+            Lương của nhân viên <input type="text" id="n1">
+            <br><br>
+            Thuế (10%) <input type="text" id="result">
+            <br><br>
+            Lương sau thuế <input type="text" id="ketqua">
+            <button class="btn btn-primary" onclick="calculator()">Submit</button>
+        </form>
+        <script type="text/javascript">
+            function calculator(){
+                var n1 = document.getElementById('n1').value;
+                var result = 0;
+                if (n1 >= 500){
+                    result = parseInt(n1) * 10 / 100;
+                    ketqua = parseInt(n1) - parseInt(n1) *10 / 100;
+                    document.getElementById('result').value = result;
+                    document.getElementById('ketqua').value = ketqua;
+                }else{
+                    alert("Xin chúc mừng bạn không phải đóng thuế")
+                }  
+            }
+        </script>
+        </div>
+    </div>
+    
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

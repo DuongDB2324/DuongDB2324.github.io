@@ -1,0 +1,149 @@
+<html>
+<head>
+<script language="JavaScript">
+function validateform()
+{
+//lay gia tri cua textbox co ten la so1 thuoc form co ten la quat, sau do gan gia tri nay cho bien co ten la num1
+num1 = quat.so1.value;
+num2 = quat.so2.value;
+
+	if(num1 == "")
+	{
+		alert("Ban can nhap so thu nhat");
+		quat.so1.focus();
+		return;
+	}
+
+	if(num2 == "")
+	{
+		alert("Ban can nhap so thu hai");
+		quat.so2.focus();
+		return;
+	}
+
+	//kiem tra xem co nhap so hay khong ?
+	if(isNaN(num1))
+	{
+		alert("So thu nhat phai la mot so !");
+		quat.so1.focus();
+		return;
+	}
+	
+	if(isNaN(num2))
+	{
+		alert("So thu hai phai la mot so !");
+		quat.so2.focus();
+		return;
+	}
+
+	//kiem tra xem gia tri nhap vao co nam trong khoang 1-100 hay khong ?
+	//cau lenh nay se chuyen doi chuoi thanh so
+	value1 = parseInt(num1);
+	if(!(value1 >= 1 && value1 <= 100))
+	{
+		alert("So thu nhat phai nam trong khoang 1-100 !");
+		quat.so1.focus();
+		return;
+	}
+
+	value2 = parseInt(num2);
+	if(value2 < 1 || value2 > 100)
+	{
+		alert("So thu hai phai nam trong khoang 1-100 !");
+		quat.so2.focus();
+		return;
+	}
+}
+
+function tinhcong()
+{
+	value1 = parseInt(quat.so1.value);
+	value2 = parseInt(quat.so2.value);
+
+	 validateform();	
+
+	//tinh toan phep cong
+	result = value1 + value2;
+	
+	//hien ket qua len textbox
+	quat.ketqua.value=result;
+}
+
+function tinhtru()
+{
+	value1 = parseInt(quat.so1.value);
+	value2 = parseInt(quat.so2.value);
+
+	 validateform();	
+
+	//tinh toan phep cong
+	result = value1 - value2;
+	
+	//hien ket qua len textbox
+	quat.ketqua.value=result;
+}
+
+function tinhnhan()
+{
+	value1 = parseInt(quat.so1.value);
+	value2 = parseInt(quat.so2.value);
+
+	 validateform();	
+
+	//tinh toan phep cong
+	result = value1 * value2;
+	
+	//hien ket qua len textbox
+	quat.ketqua.value=result;
+}
+
+function tinhchia()
+{
+	value1 = parseInt(quat.so1.value);
+	value2 = parseInt(quat.so2.value);
+
+	 validateform();	
+
+	//tinh toan phep cong
+	result = value1 / value2;
+	
+	//hien ket qua len textbox
+	quat.ketqua.value=result;
+}
+
+</script>
+</head>
+
+<form name="quat">
+<table>
+<tr>
+<th align="center" colspan=2>May tinh</th>
+</tr>
+
+<tr>
+<td>So thu nhat:</td>
+<td><input type="text" name="so1" /></td>
+</tr>
+
+<tr>
+<td>So thu hai:</td>
+<td><input type="text" name="so2" /></td>
+</tr>
+
+<tr>
+<td>Ket qua:</td>
+<td><input type="text" name="ketqua" /></td>
+</tr>
+
+<tr>
+<td colspan=2>
+<input type="button" value="Cong" onclick="tinhcong();" />
+<input type="button" value="Tru" onclick="tinhtru();" />
+<input type="button" value="Nhan" onclick="tinhnhan();" />
+<input type="button" value="Chia" onclick="tinhchia();" />
+<input type="reset" value="Xoa trang" />
+</td>
+</tr>
+</table>
+</form>
+</html>

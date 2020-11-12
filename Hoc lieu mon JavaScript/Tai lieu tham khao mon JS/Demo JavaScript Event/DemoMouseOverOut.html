@@ -1,0 +1,17 @@
+﻿<HTML>
+<HEAD> 
+	<script language="javascript">
+		var rollImage=new Image;	 // tạo một đối tượng image
+		rollImage.src="ta1.jpg";	//Gán ảnh nguồn
+		var defaultImage=new Image;
+	 	defaultImage.src="ta3.jpg";
+	</script>
+</HEAD>
+<BODY>
+ <a href="http://www.ngoctrinh.net" 
+ onMouseOver="document.myImage.src=rollImage.src" 
+ onMouseOut="document.myImage.src=defaultImage.src">
+	<img src="ta2.jpg" name="myImage">	
+</a>
+</BODY>
+</HTML>

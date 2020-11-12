@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Demo Switch</title>
+
+<script language="javascript">
+
+	function lostfocus()
+	{	
+		//lay ve gia tri cua hop text txtnumber
+		var value = document.all.txtnumber.value;			
+		
+		if(value == '')
+		{
+			alert("Ban can nhap Number!");
+			
+			//dat focus vao hop text
+			document.forms[0].txtnumber.focus();
+			return;
+		}
+	}
+
+	function calculate()
+	{
+     	//lay ve gia tri cua hop text txtnumber
+		var value = document.all.txtnumber.value;			
+		
+		//chuyen doi gia tri cua bien value thanh so nguyen
+		var number = parseInt(value);
+		var result = "";
+		
+	//Kiem tra nhap gia tri chua?	
+		if(value == '')
+		{
+			alert("Ban chua nhap Number!");
+			
+			//dat focus vao hop text
+			document.forms[0].txtnumber.focus();
+			return;
+		}
+		
+		
+	//Kiem tra gia tri nhap vao co phai khong phai la so hay khong?	
+		if(isNaN(value) == true)
+		{
+			alert("Ban phai nhap so");
+			document.forms[0].txtnumber.focus();
+			return;
+		}
+		
+		switch(number)
+		{
+			case 1:
+			{
+				result = "Monday";
+				break;
+			}
+			case 2:
+			{
+				result = "Tuesday";
+				break;
+			}
+			case 3:
+			{
+				result = "Wednesday";
+				break;
+			}
+			case 4:
+			{
+				result = "Thursday";
+				break;
+			}
+			case 5:
+			{
+				result = "Friday";
+				break;
+			}
+			case 6:
+			{
+				result = "Saturday";
+				break;
+			}
+			case 7:
+			{
+				result = "Sunday";
+				break;
+			}
+			
+			default:
+				alert("Khong hop le!");	
+		}
+		
+		//hien thi ket qua cua viec tinh toan;
+		document.all.txtresult.value = result;
+		
+	}
+</script>
+
+</head>
+<body>
+<form id="form1" name="form1" method="post" action="">
+  Enter the number: 
+  <input name="txtnumber" type="text" id="txtnumber" onblur="lostfocus()" />
+  <br />
+  <br />
+Result: 
+<input name="txtresult" type="text" id="txtresult" />
+<br />
+<br />
+<input type="button" name="Button" value="Show" onclick="calculate()" />
+</form>
+</body>
+</html>
