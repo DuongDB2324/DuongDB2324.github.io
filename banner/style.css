@@ -1,0 +1,25 @@
+@media (max-width: 1649px)
+#sticky-banner {
+    width: auto;
+}
+#sticky-banner {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 175px;
+    margin: auto;
+    z-index: 99999;
+    width: 1650px;
+}
+#sticky-banner-target .medium {
+    display: block;
+}
+.medium{
+	position:absolute;
+}
+.right{
+	right:10px;
+}
+.large{
+	display:none;
+}
