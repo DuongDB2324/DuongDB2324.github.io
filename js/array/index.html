@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>array</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="array.js">
+</head>
+<body>
+	<ul id="pepole"></ul>
+	<script>
+		var pepole=["krangLy","NhatTan","Duong","Tien"],length=pepole.length,text="";
+		for(var i=0; i<length; i++){
+			text+="<li class='item'>"+pepole[i]+"</li>";
+		}
+		document.getElementById("pepole").innerHTML=text;
+	</script>
+</body>

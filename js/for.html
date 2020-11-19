@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>for</title>
+</head>
+<body>
+	<!-- tinh tong -->
+	<script>
+		var sum=0;
+		for(var i=9; i>0; i--){
+			sum +=i;
+		}
+		console.log(i);
+		console.log(sum);
+	
+	
+	<!-- sum=45 -> i=9 -->
+	<!-- => i=10 => i<10 ? không => kết thúc vòng lặp -->
+	</script>
+	<!-- GTNN -->
+	<script>
+  	var arr=[1,3,16,33,5,7,9,100]
+	var min=arr[0]
+	length=arr.length;
+	for(var i=1; i<length; i++)
+		if(arr[i] < min){
+      min=arr[i];
+		}
+		console.log(i);
+		console.log(min);
+	</script>
+	<!-- GTLN -->
+	<script>
+  	var arr=[1,3,16,33,5,7,9,100]
+	var max=arr[0]
+	length=arr.length;
+	for(var i=1; i<length; i++)
+		if(arr[i] > max){
+      max=arr[i];
+		}
+		console.log(i);
+		console.log(max);
+	</script>
+	<!-- vong lap While -->
+	<script>
+		var sum=0,i=0;
+		while(i>=0 && i<10){
+			sum +=i;
+			i++;
+		}
+		console.log(sum);
+		console.log(i);
+	</script>
+	<!-- so palindorm -->
+	<script>
+		var number=n=121, reverse=0;
+		while(n > 0){
+			temp=n%10;
+			n=Math.floor(n/10);
+			reverse=reverse*10+temp;
+		}
+			if(reverse==number)
+				console.log("palindorme number");
+			else console.log("not palindorme number");
+	</script>
+	<!-- ex: tính tổng các số từ 100-600 mà chi hết cho 3 và 5. -->
+	<script>
+	var sum=0;
+	for(var i=100; i<=600; i++)
+		if(i%15==0){
+			sum+=i;
+		}
+		console.log(sum);
+	</script>
+	<!-- ex: viết một chương trình in ra các số nguyên nằm trong khoảng (50-100) mà chia hết cho 7. -->
+	<script>
+		for(var i=50; i<=100; i++){
+		if(i%7==0)
+		console.log(i);
+		}
+	</script>
+	<!-- ex: viết một chương trình tính trung bình cộng của 100 số nguyên dương đầu tiên (1-100). -->
+	<script>
+		var sum=0;
+		for(var i=1; i<=100; i++){
+			sum+=i;
+		}
+		console.log(sum/100);
+	</script>
+	<!-- ex: viết chương trình tính 100! -->
+	<script>
+		var product=1;
+		for(var i=2; i<=100; i++){
+			product*=i;
+		}
+		console.log(product);
+	</script>
+	<!-- BTVN: tìm kiếm nhị phân, tuyến tính, dowite, sắp xếp nổi bọt. -->
+	<!-- array -->
+	<script>
+	array=["honda",1,"BMW",2,"yamaha"]
+		console.log(typeof array[0]);
+		console.log(typeof array[1]);
+		console.log(typeof array[2]);
+		console.log(typeof array[3]);
+		console.log(typeof array[4]);
+		console.log(typeof array[array]);
+		console.log(typeof ["honda",1,"BMW",2,"yamaha"]);
+		
+	</script>
+</body>
