@@ -6,4 +6,12 @@
 }
 .item1{
 	font-weight: 600;
+	color:red;
+}
+.item2{
+	color:blue;
+	font-weight:200;
+}
+.item3{
+	color:#6800ff;
 }

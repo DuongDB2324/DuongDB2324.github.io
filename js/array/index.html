@@ -101,10 +101,10 @@
 			var text="";
 			for(var i=start; i<=end;i++){
 				if (i%3==0){
-					text+="<li class='item1'>"+i+"</li>";
+					text+="<li class='item1'><span class='item2'>chia hết cho 3:</span>"+i+"</li>";
 				}
 				else{
-					text+="<li>"+i+"</li>";
+					text+="<li><span class='item3'>không chia hết cho 3:</span>"+i+"</li>";
 				}
 			}
 			return text;
