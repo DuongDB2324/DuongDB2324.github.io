@@ -14,4 +14,101 @@
 		}
 		document.getElementById("pepole").innerHTML=text;
 	</script>
+	
+	<p id="show"></P>
+	<script>
+		var fruits=["chuoi",,"buoi","cam","Quyt"];
+		<!-- loại bỏ giá trị cuối của mảng. -->
+		//fruits.pop();
+		<!-- thêm giá trị vào vị trí cuối của mảng. -->
+		//fruits.push("mit");
+		<!-- gán giá trị cho mảng. -->
+		//fruits[1]="mit";
+		<!-- sort dùng để sắp xếp thứ tự trong bảng chữ cái theo thứ tự tăng dần. SỐ -> chữ HOA -> chữ THƯỜNG. -->
+		//fruits.sort();
+		<!-- reverse dùng để đảo ngược thứ tự suất hiện của một mảng(array).-->
+		//fruits.reverse();
+		//document.getElementById("show").innerHTML=fruits;
+		//	length=fruits.length;
+		//	fruits.forEach((v,i)=>console.log(v))
+		//for(const fruit of fruit){
+		//	console.log(fruits);
+		//}
+		//for(var i=0;i<length;i++){
+		
+		//}
+		<!-- for(x in fruist) là lệnh mở rộng vòng lặp for. for in cho phép sử dụng các cú pháp ngắn gọn hơn so với for. -->
+		//for(x in fruits){
+		//	console.log(fruits[x]);
+		//}
+		<!-- đối với for in và for x thì đều bỏ qua phần tử trống, còn for với for of thì vẫn tính. -->
+	</script>
+	
+	<script>
+		function totalPrice(price,vat){
+			return total=price + price*(vat/100);
+		}
+		console.log(totalPrice(10000,10));
+	</script>
+	<!-- Ex: tạo hàm tính diện tích hình vuông. -->
+	<p id="areaSquare"></p>
+	<script>
+		function areaSquare(edge){
+			return areaSquare=edge**2;
+		}
+		console.log(areaSquare(10));
+		document.getElementById("areaSquare").innerHTML="areaSquare:"+areaSquare;
+	</script>
+	<!-- Ex: tạo hàm tính diện tích hình chữ nhật. -->
+	<p id="areaRectangle"></p>
+	<script>
+		function areaRectangle(length,width){
+			return areaRectangle=length*width;
+		}
+		console.log(areaRectangle(10,20));
+		document.getElementById("areaRectangle").innerHTML="areaRectangle:"+areaRectangle;
+	</script>
+	<!-- Ex: viết hai hàm, một hàm tính chu vi hình chữ nhật và chu vi hình tròn. -->
+	<p id="perimeterRectangle"></p>
+	<script>
+		function perimeterRectangle(length,width){
+			return perimeterRectangle=(length + width)*2;
+		}
+		console.log(perimeterRectangle(10,20));
+		document.getElementById("perimeterRectangle").innerHTML="perimeterRectangle:"+perimeterRectangle;
+	</script>
+	<p id="circumference"></p>
+	<script>
+		function circumference(radius){
+			return circumference=2*radius*Math.PI;
+		}
+		console.log(circumference(24));
+		document.getElementById("circumference").innerHTML="circumference:"+circumference;
+	</script>
+	<!-- Ex:  viết một hàm trong cho người dùng nhập trong một khoảng giá trị, sau đó in các số ra ngoài màn hình dưới dạng list.
+	với các số chia hết cho 3 sẽ được bôi đậm. -->
+	<!-- <div> -->
+		<!-- <label for="startNumber">startNumber:</label> -->
+		<!-- <input type="number" id="startNumber" placeholder="number"> -->
+	<!-- </div> -->
+	<!-- <div> -->
+		<!-- <label for="endNumber">endNumber:</label> -->
+		<!-- <input type="number" id="endNumber" placeholder="number"> -->
+	<!-- </div> -->
+	<ul id="show"></ul>
+	<script>
+		function printList(start,end){
+			var text="";
+			for(var i=start; i<=end;i++){
+				if (i%3==0){
+					text+="<li class='item1'>"+i+"</li>";
+				}
+				else{
+					text+="<li>"+i+"</li>";
+				}
+			}
+			return text;
+		}
+		document.getElementById("show").innerHTML=printList(1,60);
+	</script>
 </body>
