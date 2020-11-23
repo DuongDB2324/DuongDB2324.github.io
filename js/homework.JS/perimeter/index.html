@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Ex Perimeter</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<h1>Ex: viết một đối tượng tính chu vi các hình: chữ nhật, tròn, tam giác vuông.</h1>
+		<h2 class="item">chu vi hình chữ nhật.</h2>
+		<p id="perimeterRectangle"></p>
+		<script>
+			function perimeterRectangle(length,width){
+				return perimeterRectangle=(length + width)*2;
+			}
+			console.log(perimeterRectangle(10,20));
+			document.getElementById("perimeterRectangle").innerHTML="perimeterRectangle:"+perimeterRectangle;
+		</script>
+		<h2 class="item">chu vi hình tròn.</h2>
+		<p id="circumference"></p>
+		<script>
+			function circumference(radius){
+				var MathD=piD=3.14;
+				return circumference=2*radius*piD;
+			}
+			console.log(circumference(24));
+			document.getElementById("circumference").innerHTML="circumference:"+circumference;
+		</script>
+		<h2 class="item">chu vi hình tam giác vuông.</h2>
+		<p id="rightAngled"></p>
+		<script>
+			function rightAngled(squareAngleA,squareAngleB){
+				return rightAngled=squareAngleA+squareAngleB+Math.sqrt(squareAngleA**2+squareAngleB**2);
+			}
+			console.log(rightAngled(4,6));
+			document.getElementById("rightAngled").innerHTML="rightAngled:"+rightAngled;
+		</script>
+	</body>
+</html>
