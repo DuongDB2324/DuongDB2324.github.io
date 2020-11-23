@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>binarySearch</title>
+	</head>
+	<body>
+		<script>
+			var Arr=[15, 20, 25, 30, 31, 44, 66]
+			function bsearch (Arr,x=25){
+				var low  = 0 , high = Arr.length -1 ,mid ;      
+				while (low <= high){
+					mid = Math.floor((low+high)/2);     
+					if(Arr[mid]==x) return mid ; 
+					else if (Arr[mid]<x) low = mid+1;
+					else high = mid-1;          
+				}
+				return -1 ;
+			}
+		</script>
+		<script>
+			var arr = [1,2,3,4,5],
+			searchTerm=2;
+			function binarySearchInJS(start,end)
+			{
+				isFound=false;
+				if(end > start)
+				{
+					//console.log(start+"\t"+end)
+					mid =(end+start)/2;
+					mid = Math.floor(mid)
+					if(searchTerm==arr[mid])
+					{                   
+						isFound = true;             
+					}
+					else
+					{   
+						if(searchTerm < arr[mid])
+						{               
+							binarySearchInJS(start,mid);
+						}
+						if(searchTerm > arr[mid])
+						{           
+							binarySearchInJS(mid+1,end);
+						}
+					}
+				}
+
+				if(isFound)
+				{
+					return "Success";   
+				}
+				else{
+					return "Not Found"; 
+				}       
+			}
+		</script>
+	</body>
+</html>
