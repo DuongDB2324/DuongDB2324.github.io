@@ -9,30 +9,36 @@
 		<h2>diện tích hình chữ nhật</h2>
 		<p id="areaRectangle"></p>
 		<script>
-			function areaRectangle(length,width){
-				return areaRectangle=length*width;
+			var MathR={
+				areaRectangle:function (length,width){
+					return length*width;
+				}
 			}
-			console.log(areaRectangle(10,20));
-			document.getElementById("areaRectangle").innerHTML="areaRectangle:"+areaRectangle;
+			console.log(MathR.areaRectangle(10,20));
+			document.getElementById("areaRectangle").innerHTML="areaRectangle:"+MathR.areaRectangle(10,20);
 		</script>
 		<h2>diện tích hình tròn</h2>
 		<p id="circleArea"></p>
 		<script>
-			function circleArea(radius){
-				var MathD=piD=3.14;
-				return circleArea=piD*radius**2;
+			var MathcA={
+				circleArea:function (radius){
+					var piD=3.14;
+					return piD*radius**2;
+				}
 			}
-			console.log(circleArea(11));
-			document.getElementById("circleArea").innerHTML="circleArea:"+circleArea;
+			console.log(MathcA.circleArea(11));
+			document.getElementById("circleArea").innerHTML="circleArea:"+MathcA.circleArea(11);
 		</script>
 		<h2>diện tích hình tam giác vuông</h2>
 			<p id="rightAngled"></p>
 		<script>
-			function rightAngled(height,bottomEdge){
-				return rightAngled=height*bottomEdge/2;
+			var MathrA={
+				rightAngled: function (height,bottomEdge){
+					return height*bottomEdge/2;
+				}
 			}
-			console.log(rightAngled(4,6));
-			document.getElementById("rightAngled").innerHTML="rightAngled:"+rightAngled;
+			console.log(MathrA.rightAngled(4,6));
+			document.getElementById("rightAngled").innerHTML="rightAngled:"+MathrA.rightAngled(4,6);
 		</script>
 	</body>
 </html>

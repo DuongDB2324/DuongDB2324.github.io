@@ -10,30 +10,45 @@
 		<h2 class="item">chu vi hình chữ nhật.</h2>
 		<p id="perimeterRectangle"></p>
 		<script>
-			function perimeterRectangle(length,width){
-				return perimeterRectangle=(length + width)*2;
+			var Mathemetic={
+			perimeter: function(length,width){
+					return (length + width)*2;
+				}
 			}
-			console.log(perimeterRectangle(10,20));
-			document.getElementById("perimeterRectangle").innerHTML="perimeterRectangle:"+perimeterRectangle;
+			console.log(Mathemetic.perimeter(10,20));
+			document.getElementById("perimeterRectangle").innerHTML="perimeterRectangle:"+Mathemetic.perimeter(10,20);
 		</script>
 		<h2 class="item">chu vi hình tròn.</h2>
 		<p id="circumference"></p>
 		<script>
-			function circumference(radius){
-				var MathD=piD=3.14;
-				return circumference=2*radius*piD;
+			var Mathc={
+				circumference: function(radius){
+					var piD=3.14;
+					return 2*radius*piD;
+				}
 			}
-			console.log(circumference(24));
-			document.getElementById("circumference").innerHTML="circumference:"+circumference;
+			console.log(Mathc.circumference(24));
+			document.getElementById("circumference").innerHTML="circumference:"+Mathc.circumference(24);
 		</script>
 		<h2 class="item">chu vi hình tam giác vuông.</h2>
 		<p id="rightAngled"></p>
 		<script>
-			function rightAngled(squareAngleA,squareAngleB){
-				return rightAngled=squareAngleA+squareAngleB+Math.sqrt(squareAngleA**2+squareAngleB**2);
+			var MathrA={
+				rightAngled: function (squareAngleA,squareAngleB){
+					return squareAngleA+squareAngleB+Math.sqrt(squareAngleA**2+squareAngleB**2);
+				}
 			}
-			console.log(rightAngled(4,6));
-			document.getElementById("rightAngled").innerHTML="rightAngled:"+rightAngled;
+			console.log(MathrA.rightAngled(4,6));
+			document.getElementById("rightAngled").innerHTML="rightAngled:"+MathrA.rightAngled(4,6);
+		</script>
+		<script>
+		//	var Mathemetic={
+
+		//		perimeter: function(length,width){
+		//			return (length + width)*2;
+		//		}
+		//	}
+		//	console.log(Mathemetic.perimeter(10,20));
 		</script>
 	</body>
 </html>
