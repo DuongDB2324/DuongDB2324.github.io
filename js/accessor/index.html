@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>ex Accsseor(gettor and settor)</title>
+	</head>
+	<body>
+		<p id="person"></p>
+		<script>
+			var person={
+				_name:"Duong",
+				get name(){
+					return this._name;
+				},
+				set name(dao){
+					this._name=dao;
+				}
+			}
+			<!-- gọi đến hàm get, để lấy giá trị, bắt buộc phải có return-->
+			console.log(person.name);
+			<!-- gọi đến hàm set, để gán giá trị -->
+			person.name="dao ba duong";
+			document.getElementById("person").innerHTML="full name: "+ person.name;
+		</script>
+		<!-- thêm phần tử -->
+		<script>
+			var btn=document.createElement("BUTTON");
+				btn.innerHTML="click me";
+				document.body.appendChild(btn);
+		</script>
+		<!-- xóa phần tử -->
+		<script>
+			//document.body.removeChild(btn);
+			//document.body.removeChild(document.getElementById("person"));
+		</script>
+	</body>
+</html>
