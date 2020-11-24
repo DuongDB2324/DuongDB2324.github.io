@@ -22,9 +22,9 @@
 		<p id="circumference"></p>
 		<script>
 			var Mathc={
+				piD:3.14,
 				circumference: function(radius){
-					var piD=3.14;
-					return 2*radius*piD;
+					return 2*radius*this.piD;
 				}
 			}
 			console.log(Mathc.circumference(24));

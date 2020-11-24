@@ -21,9 +21,9 @@
 		<p id="circleArea"></p>
 		<script>
 			var MathcA={
+				piD:3.14,
 				circleArea:function (radius){
-					var piD=3.14;
-					return piD*radius**2;
+					return this.piD*radius**2;
 				}
 			}
 			console.log(MathcA.circleArea(11));
