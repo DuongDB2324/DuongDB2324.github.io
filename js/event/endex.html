@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Event</title>
+		<link rel="stylesheet" href="style.js">
+	</head>
+	<body>
+	<h1>Ex: JavaScript Event</h1>
+	<!-- xóa phần tử -->
+	<h2>Ex: onclick</h2>
+		<ul id="remove">
+			<li>kangly</li>
+			<li>tan</li>
+			<li>duong</li>
+			<li>tien</li>
+			<li>quyet</li>
+			<li>duan</li>
+			<li>hoang</li>
+		</ul>
+		<button onclick="removeEle()">click me</button>
+		<script>
+			function removeEle(){
+				var list=document.getElementById("remove");
+				list.removeChild(list.childNodes[0]);
+			}
+		</script>
+	<!-- Ex: onfocus & onblur -->
+	<h2>Ex: onfocus & onblur</h2>
+		<form>
+			<label for="text">name:</label>
+			<input onfocus="getFocus()" onblur="setFocus()" id="input" placeholder="Duong"></input>
+		</form>
+		<script>
+			function getFocus(){
+				document.getElementById("input").style.background="yellow";
+			}
+		</script>
+		<script>
+			function setFocus(){	
+				document.getElementById("input").style.background="red";
+			}
+		</script>
+	<!-- Ex: onmouseover & onmouseout -->
+		<h2>Ex: onmouseover & onmouseout</h2>
+		<a href="#" target="" id="demo" onmouseover="getMouseover()" onmouseout="setMouseuot()">GOGo</a>
+		<script>
+			function getMouseover(){
+				document.getElementById("demo").style.color="red";
+			}
+		</script>
+		<script>
+			function setMouseuot(){
+				document.getElementById("demo").style.color="green";
+			}
+		</script>
+	<!-- Ex: onchange -->
+		<h2>Ex: onChange</h2>
+		<select id="Motor" onchange="getChange()">
+			<option value="Honda">Honda</option>
+			<option value="Yamaha">Yamaha</option>
+			<option value="Ducati">Ducati</option>
+			<option value="BMW">BMW</option>
+		</select>
+		<script>
+			function getChange(){
+				var selected=document.getElementById("Motor").value;
+				alert(selected);
+			}
+		</script>
+	<!-- Ex: onkeydown & onsubmit -->
+		<h2>Ex: onkeydown & onsubmit</h2>
+	</body>
+</html>
