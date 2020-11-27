@@ -7,7 +7,7 @@
 	</head>
 	<body>
 		<h1>ValidateForm</h1>
-		<form name="register" onsubmit="validateForm()">
+		<form name="register" onsubmit="validateForm()" action="" method="post">
 			<label for="use">Họ và Tên: 
 			<input type="text" name="txtName" id="use" value="Đào Bá Dương">
 			</label><br><br>
@@ -21,7 +21,7 @@
 			<input type="password" name="txtPassword" id="password" value="password">
 			</label><br><br>
 			<label for="gender">Gender
-			<input type="radio" name="gender" id="gender" value="male">Nam
+			<input type="radio" name="gender" id="gender" value="male" checked>Nam
 			<input type="radio" name="gender" id="gender" value="Female">Nữ
 			<input type="radio" name="gender" id="gender" value="other">Khác
 			</label><br><br>
