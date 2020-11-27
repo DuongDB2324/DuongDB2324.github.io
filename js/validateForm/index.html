@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>ValidateForm</title>
+		<!-- <link rel="stylesheet" href="style.js"> -->
+	</head>
+	<body>
+		<h1>ValidateForm</h1>
+		<form name="register" onsubmit="validateForm()">
+			<label for="use">Họ và Tên: 
+			<input type="text" name="txtName" id="use" value="Đào Bá Dương">
+			</label><br><br>
+			<label for="age">Tuổi: 
+			<input type="number" name="txtAge" id="age" value="18">
+			</label><br><br>
+			<label for="email">Email: 
+			<input type="email" name="txtEmail" id="email" value="antonduong241194@gmail.com">
+			</label><br><br>
+			<label for="password">Pass Word: 
+			<input type="password" name="txtPassword" id="password" value="password">
+			</label><br><br>
+			<label for="gender">Gender
+			<input type="radio" name="gender" id="gender" value="male">Nam
+			<input type="radio" name="gender" id="gender" value="Female">Nữ
+			<input type="radio" name="gender" id="gender" value="other">Khác
+			</label><br><br>
+			<input type="submit" name="submit" value="Đăng Ký">
+		</form>
+	
+		<script src="style.js"></script>
+	</body>
+</html>
