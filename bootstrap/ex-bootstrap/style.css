@@ -87,13 +87,17 @@
 	color: #000;
 	margin-left: -6px;
 }
+.avata{
+	width:100px;
+	height:100px;
+}
 .nav-link:hover{
 	border-style: solid;
 	border-color: yellowgreen;
 	border-radius: 4px;
 	}
 .pob-up{
-	margin: 8rem 35rem auto 33rem;
+	margin: 9rem 38rem auto 45rem;
 	right: -23rem;
 	}
 .end-header{

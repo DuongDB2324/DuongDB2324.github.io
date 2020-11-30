@@ -5,10 +5,13 @@
 		<title>Ex:Jquery</title>
 	</head>
 	<body>
-		<p>Tân là con tó màu đen kiki</p>
+		<p id="text">Tân là con tó màu đen kiki. Tân thi thoảng hơi đơ đơ tý thôi, thường thì Tân vẫn cứ đơ.<br>Tân thích ăn xúc xích, nhưng không thích cắn chỉ thích mút :PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP</p>
+		<button type="button" id="hidden" class="">click Me to hidden</button>
+		<button type="button" id="show" class="">GO Gâu to Show</button>
+		<button type="button" id="togglel" class="">GO Gâu</button>
 		<script src="jquery-3.5.1.min.js"></script>
 		<script>
-			$("p").on({
+			/*$("p").on({
 				click:function(){
 					$(this).css("background","red");
 				},
@@ -18,7 +21,49 @@
 				mouseleave:function(){
 					$(this).css("background","white")
 				}
+			});*/
+		</script>
+		<script>
+			/*$("#hidden").click(function(){
+				$("p#text").hide(2000, function(){
+					alert("đã ẩn");
+				});
 			});
+			$("#show").click(function(){
+				$("p#text").show(2000, function(){
+					alert("đã hiện");
+				});
+			});*/
+			
+			/*note:
+			hide(spead,easy, callback) callback laf 1 function sẽ chạy sau khi hide được hoàn thành.
+			Ex:
+			hide(1000,function(){
+				alert("đã ẩn");
+			})
+			show(speed, callback)
+			---easy: linear - tốc độ sẽ đều trong toàn bộ quá trình.
+					swing: mặc định, chậm đầu, nhanh giữa.
+			*/
+			
+			/*$("#togglel").click(function(){
+				$("p#text").toggle(2000);
+			});*/
+			
+			//facdeIn(speed, callback)
+			$("#hidden").click(function(){
+				$("p#text").fadeOut(2000);
+			});
+			$("#show").click(function(){
+				$("p#text").fadeIn(2000);
+			});
+			$("#togglel").click(function(){
+				$("p#text").fadeTo(2000,0.5);  
+			});
+			
+			/*note:
+				fadeTO(seep,opcity,callback) hai giá trị đầu buộc phải có.
+			*/
 		</script>
 	</body>
 </html>
