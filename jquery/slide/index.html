@@ -43,7 +43,15 @@
 			<div id="slide-content2">hello KrangLy</div>
 			<div id="slide-content3">hello Tien</div>
 		</div>
+		
 		<div id="square"></div>
+		
+		<p id="yourname">hello Tan</p>
+		<form name="register" action="" method="post">
+			<label for="use">Họ và Tên: 
+			<input type="text" name="txtName" id="use" value="Đào Bá Dương">
+		</form>
+		
 		<script src="../jquery-3.5.1.min.js"></script>
 		<script>
 			$("#slide").click(function(){
@@ -58,6 +66,7 @@
 			$("#slide-content2").click(function(){
 				$("#slide-content3").slideToggle();
 			});
+			
 			$("#square").on({
 				mouseenter:function(){
 					$("#square").animate({
@@ -71,6 +80,13 @@
 						width:'-=50px'
 					},1500);
 				}
+			});
+			
+			//alert($("#yourname").text());
+			
+			$("#use").keyup(function(){
+				let x=$("#use").val();
+				$("#yourname").text(x);
 			});
 		</script>
 	</body>
