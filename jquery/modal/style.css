@@ -122,8 +122,24 @@
 	text-decoration:none;
 	color:#6f92b0;
 }
+.policy:hover{
+	margin-right:5px;
+	text-decoration:none;
+	color:blue;
+}
 .terms{
 	margin-left:5px;
 	text-decoration:none;
 	color:#6f92b0;
+}
+.terms:hover{
+	margin-left:5px;
+	text-decoration:none;
+	color:blue;
+}
+.show{
+	margin-left: 50%;
+	margin-right: 50%;
+	color: purple;
+	margin-top: 5rem;
 }
