@@ -19,10 +19,13 @@ function setMouseuot(){
 	document.getElementById("demo").style.color="green";
 }
 // onchange
+
 function getChange(){
 	var selected=document.getElementById("Motor").value;
+		selected = "bạn đã chọn" + value;
 		alert(selected);
 }
+
 // onkeypress - onkeydown
 function getKeyPress(){
 	alert("ok!");
