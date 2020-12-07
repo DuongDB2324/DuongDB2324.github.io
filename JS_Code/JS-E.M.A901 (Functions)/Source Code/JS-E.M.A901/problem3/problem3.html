@@ -39,11 +39,11 @@
     var result = Math.round(start + tmp * Math.random());
     return result;
   }
-  console.log("randomName");
-  /*function chooseName(Array) {
+  
+  function chooseName(Array) {
     var randomIndex = randomName(0, Array.length - 1);
     return Array[randomIndex];
-  }*/
+  }
   
   var chosenName = chooseName(names);
   para.textContent = chosenName;
