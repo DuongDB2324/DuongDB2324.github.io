@@ -1,0 +1,215 @@
+
+.rev_slider .slotholder:after, .rev_slider .slotholder, img:after {
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    z-index: 99;
+    background: rgba(0, 0, 0, 0.82);
+}
+
+.shadow{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.justify-content-center{
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: flex;
+}
+
+.search select.form-control,
+.search #searchBtn,
+.search #domain-search{
+    height: 53px!important;
+    border-radius: 58px;
+    border:1px solid whitesmoke;
+    padding: 5px 30px;
+    font-size: 14px;
+    background: #fff;
+    z-index: 2;
+    position: relative;
+    outline: none;
+}
+
+.search select.form-control{
+    border-radius:0px;
+    padding: 5px 5px;
+    border-right:0;
+    border-left:0;
+    margin-left:-30px;
+    min-width: 78px;
+}
+
+.search #domain-search{
+    border-top-right-radius: 0px;
+    border-right: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.search #searchBtn{
+    border-top-left-radius: 0px;
+    border-left: 0px;
+    border-bottom-left-radius: 0px;
+    padding: 5px 40px;
+}
+
+/* services */
+.featured-three-column .column:nth-child(even) .inner-box{
+    background-size: cover;
+}
+/* Pricing table */
+.pricingTable{
+    text-align: center; 
+    padding-top: 5px;
+    transition: all 0.5s ease-in-out 0s;
+}
+.pricingTable > .pricingTable-header{
+    color:#fff;
+    background: #273238;
+    height: 190px;
+    position: relative;
+    transition: all 0.5s ease 0s;
+}
+.pricingTable > .pricingTable-header:after{
+    content: ""; 
+    border-left: 263px solid transparent;
+    position: absolute;
+    right:0px;
+    bottom: 0px;
+}
+.pricingTable:hover .pricingTable-header{
+    height: 230px;
+    transition: all 0.5s ease 0s;
+}
+.pricingTable-header > .heading{
+    display: block;
+    padding: 20px 0;
+}
+.heading > h3{
+    margin: 0;
+    text-transform: uppercase;
+}
+.pricingTable-header > .price-value{
+    display: block;
+    font-size: 60px;
+    line-height: 60px;
+}
+.pricingTable-header > .price-value > .mo{
+    font-size: 14px;
+    display: block;
+    line-height: 0px;
+    text-transform: uppercase;
+}
+.pricingTable-header > .price-value > .currency{
+    font-size: 24px;
+    margin-right: 4px;
+    position: relative;
+    bottom:30px;
+}
+.pricingTable > .pricingContent{
+    text-transform: uppercase;
+    color:#fff
+}
+.pricingTable > .pricingContent > ul{
+    list-style: none;
+    padding: 0;
+}
+.pricingTable > .pricingContent > ul > li{
+    padding: 15px 0;
+    border-bottom: 1px solid #fff;
+}
+.pricingTable > .pricingContent > ul > li:last-child{
+    border: 0px none;
+}
+.pricingTable-sign-up{
+    padding: 30px 0;
+}
+.pricingTable-sign-up > .btn-block{
+    width: 80%;
+    margin: 0 auto;
+    background: #273238;
+    border:2px solid #fff;
+    color:#fff;
+    padding: 15px 12px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.pricingTable-sign-up > .btn-block:hover{
+    opacity: 0.9;
+}
+.pink{
+    background: #ed687c;
+}
+.pink .pricingTable-header:after{
+    border-bottom-color: #ed687c;
+}
+.orange{
+    background: #e67e22;
+}
+.orange .pricingTable-header:after{
+    border-bottom-color: #e67e22;
+}
+.blue{
+    background: #3498db;
+}
+.blue .pricingTable-header:after{
+    border-bottom-color: #3498db;
+}
+ #radioBtn .notActive{
+    color: #888;
+    background-color: #eee;
+}
+
+.hosting-table table tr th {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.hosting-table table tr th small {
+    font-size: 55px;
+    padding: 8px 0 0;
+    margin: 0;
+    line-height: 1;
+    display: inline-block;
+
+}
+
+table tr td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.hosting-table table tr th small span {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 0 0;
+}
+
+@media screen and (max-width: 1200px){
+    .pricingTable > .pricingTable-header:after{
+        border-left: 215px solid transparent;
+    }
+}
+@media screen and (max-width: 990px){
+    .pricingTable{
+        margin-bottom: 20px;
+    }
+    .pricingTable > .pricingTable-header:after{
+        border-left: 349px solid transparent;
+    }
+}
+@media screen and (max-width: 480px){
+    .pricingTable{
+        overflow: hidden;
+    }
+    .pricingTable > .pricingTable-header:after {
+        border-left: 459px solid rgba(0, 0, 0, 0);
+    }
+}
